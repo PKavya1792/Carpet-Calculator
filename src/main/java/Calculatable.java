@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public interface Calculatable {
-}
+public interface Calculatable {
+       void addRoom(Room room);
+       String getTotalCost();
+       void addPercentDiscount(float i);
+
+  }
+
+
+
